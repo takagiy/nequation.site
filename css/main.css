@@ -5,10 +5,22 @@ body {
 
 header {
   font-weight: 100;
+  background-color: black;
 }
 
 header * {
   font-weight: inherit;
+}
+
+header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.header-contents {
+  padding-right: 20px;
+  background-color: white;
 }
 
 h1 {
@@ -24,6 +36,10 @@ h1 {
   float: left;
   transform: rotate(90deg) translateY(-0.09em);
   margin-left: -0.2em;
+}
+
+.header-contents {
+  float: left;
 }
 
 .contents-nav {
