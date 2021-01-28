@@ -1,13 +1,58 @@
 body {
-  font-size: 100%;
   font-family: 'Josefin Sans', sans-serif;
 }
 
+header {
+  font-weight: 100;
+}
+
+header * {
+  font-weight: inherit;
+}
+
 h1 {
+  font-size: 47px;
+}
+
+.nequation {
   position: relative;
+  white-space: nowrap;
 }
 
 .neq {
   float: left;
   transform: rotate(90deg) translateY(-0.09em);
+  margin-left: -0.2em;
+}
+
+.contents-nav {
+  margin: 20px 0px;
+}
+
+.contents-nav * {
+  font-size: 26px;
+}
+
+.contents-nav:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.nav-head {
+  float: left;
+  margin: 0;
+}
+
+.nav-list {
+  float: left;
+  list-style: "/";
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+.main-head {
+  font-size: 26px;
+  font-weight: 100;
 }
