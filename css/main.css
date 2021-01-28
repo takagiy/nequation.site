@@ -4,8 +4,12 @@ body {
 }
 
 header {
+  margin-top: 20px;
   font-weight: 100;
-  background-color: black;
+  background: -webkit-repeating-linear-gradient(160deg, black, white 55px, lightgrey 60px);
+  background: -moz-repeating-linear-gradient(160deg, black, white 55px, lightgrey 60px);
+  background: -ms-repeating-linear-gradient(160deg, black, white 55px, lightgrey 60px);
+  background: repeating-linear-gradient(290deg, black, white 55px, lightgrey 60px);
 }
 
 header * {
