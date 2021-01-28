@@ -1,0 +1,13 @@
+body {
+  font-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  position: relative;
+}
+
+.neq {
+  float: left;
+  transform: rotate(90deg) translateY(-0.09em);
+}
